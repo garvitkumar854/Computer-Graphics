@@ -69,10 +69,45 @@ A collection of Computer Graphics programming assignments covering fundamental a
 - Polynomial curve fitting using least squares method
 - Gaussian elimination and back-substitution
 
-### Bonus: Cohen-Sutherland Algorithm
-**File:** [Cohen_Sutherland.cpp](Cohen_Sutherland.cpp)
+### Assignment 15: Cohen-Sutherland Algorithm
+**File:** [15_Cohen_Sutherland.cpp](15_Cohen_Sutherland.cpp)
 - Cohen-Sutherland line clipping algorithm
 - Viewport clipping implementation
+
+### Assignment 16: Polygon Clipping
+**File:** [16_Polygon_Clippng.cpp](16_Polygon_Clippng.cpp)
+- Sutherland-Hodgman style polygon clipping
+- Clipping against rectangular boundaries
+
+### Assignment 17: Scaling
+**File:** [17_Scaling.cpp](17_Scaling.cpp)
+- 2D scaling transformation
+- Object resizing using transformation factors
+
+### Assignment 18: Rotation
+**File:** [18_Rotation.cpp](18_Rotation.cpp)
+- 2D rotation transformation
+- Coordinate update using rotation matrix
+
+### Assignment 19: Translation
+**File:** [19_Translation.cpp](19_Translation.cpp)
+- 2D translation transformation
+- Position shifting by offset values
+
+### Assignment 20: 2D Reflection
+**File:** [20_2D_Reflection.cpp](20_2D_Reflection.cpp)
+- Reflection in 2D space
+- Mirror transformation of geometric objects
+
+### Assignment 21: Reflection 1
+**File:** [21_Reflection_1.cpp](21_Reflection_1.cpp)
+- Reflection case study (variant 1)
+- Axis-based geometric reflection
+
+### Assignment 22: Reflection 2
+**File:** [22_Reflection_2.cpp](22_Reflection_2.cpp)
+- Reflection case study (variant 2)
+- Extended reflection transformation example
 
 ## Prerequisites
 
@@ -98,8 +133,8 @@ g++ -g 08_DDA_Algorithm.cpp -o DDA.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut3
 - **Basic Graphics:** Points, lines, and shapes
 - **Line Rasterization:** DDA, Bresenham algorithms
 - **Circle Rasterization:** Bresenham and Midpoint algorithms
-- **Transformations:** Rotation, translation of geometric objects
+- **Transformations:** Scaling, rotation, translation, reflection
 - **Curve Fitting:** Polynomial least squares approximation
-- **Clipping:** Cohen-Sutherland line clipping
+- **Clipping:** Cohen-Sutherland and polygon clipping
 - **Animation:** Dynamic object rendering
 
