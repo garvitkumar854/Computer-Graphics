@@ -109,11 +109,17 @@ A collection of Computer Graphics programming assignments covering fundamental a
 - Reflection case study (variant 2)
 - Extended reflection transformation example
 
+### Assignment 23: 2D Transformation (MATLAB)
+**File:** [23_2D_Transformation_matlab.m](23_2D_Transformation_matlab.m)
+- Combined 2D transformations using scaling, rotation, and translation
+- MATLAB-based transformation visualization and animation
+
 ## Prerequisites
 
 - C++ compiler (MinGW/GCC)
 - BGI (Basic Graphics Interface) library for graphics rendering
 - Windows graphics libraries: gdi32, comdlg32, uuid, oleaut32, ole32
+- MATLAB (for `.m` assignment files)
 
 ## Compilation
 
@@ -134,6 +140,7 @@ g++ -g 08_DDA_Algorithm.cpp -o DDA.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut3
 - **Line Rasterization:** DDA, Bresenham algorithms
 - **Circle Rasterization:** Bresenham and Midpoint algorithms
 - **Transformations:** Scaling, rotation, translation, reflection
+- **Composite Transformations:** Combined scaling, rotation, and translation in MATLAB
 - **Curve Fitting:** Polynomial least squares approximation
 - **Clipping:** Cohen-Sutherland and polygon clipping
 - **Animation:** Dynamic object rendering
